@@ -1,0 +1,13 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows:repeat(3, 50px);
+    background-color: aqua;
+    border: solid 1px rgb(0, 0, 0);
+}
+.item{
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
